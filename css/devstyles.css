@@ -1,0 +1,34 @@
+html {
+  font-size: 10px; }
+
+.wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 1rem; }
+
+.wrapper_switchers, .wrapper_objects {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  text-align: center; }
+
+.wrapper_switcher {
+  background-color: aqua; }
+
+.wrapper_switcher, .wrapper_object {
+  width: 20rem;
+  height: 3rem;
+  line-height: 3rem;
+  margin-bottom: .5rem;
+  cursor: pointer; }
+
+.wrapper_object {
+  background-color: yellow; }
